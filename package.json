@@ -1,0 +1,26 @@
+{
+  "name": "vpman",
+  "version": "1.0.0",
+  "description": "Gets all timetables regularly to serve them to users more quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Grohmann",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "google-auth-library": "^0.11.0",
+    "greenlock": "^2.1.12",
+    "greenlock-express": "^2.0.9",
+    "le-acme-core": "^2.0.9",
+    "le-challenge-fs": "^2.0.8",
+    "le-sni-auto": "^2.1.0",
+    "le-store-certbot": "^2.0.3",
+    "mongodb": "^2.2.25",
+    "mysql": "^2.13.0",
+    "xml2js": "^0.4.17"
+  }
+}
